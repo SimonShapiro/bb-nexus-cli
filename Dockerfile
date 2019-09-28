@@ -1,3 +1,3 @@
-image continuumio/miniconda
+FROM continuumio/miniconda
 
-command "conda create -n nexus-cli python=3.7"
+CMD ["conda create -n nexus-cli python=3.7"]
